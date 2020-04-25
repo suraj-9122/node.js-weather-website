@@ -23,22 +23,22 @@ app.use(express.static(publicdirectory))
 
 app.get('',(req,res) => {
     res.render('index',{
-        title:'weather app',
-        name:'suraj kumar'
+        title:'Weather',
+        name:'Suraj kumar'
     })
 })
 
 app.get('/about' , (req,res) => {
     res.render('about' , {
-        title:'about us',
-        name:'suraj kumar'
+        title:'About Me',
+        name:'Suraj kumar'
     })
 })
 
 app.get('/help' , (req,res) => {
     res.render('help' , {
-        title:'help',
-        name:'suraj kumar',
+        title:'Help',
+        name:'Suraj kumar',
         helptext:'some helpful text'
     })
 })
