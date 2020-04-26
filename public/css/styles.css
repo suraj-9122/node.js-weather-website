@@ -7,36 +7,61 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-image: url("/img/img2.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .main-content{
     flex-grow: 1;
+    text-align: center;
+    color: #000;
 }
 
 footer {
-    color: #888888;
+    color: #fff;
     border-top: 1px solid #eeeeee;
     padding: 16px 0;
     margin-top: 16px;
+    text-align: center;
 }
 
 header {
     margin-top: 16px;
     margin-bottom: 48px;
-
+    text-align: center;
 }
 h1 {
     font-size: 100px;
     margin-bottom: 16px;
-
+    color: #b3b3b3;
 }
 
 header a{
-    color: #888888;
+    color: #b3b3b3;
     margin-right: 16px;
     text-decoration: none;
 }
 
 .portrait {
-    width: 250px;
+    width: 200px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    width:250px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+
+button {
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid #888888;
+    background: #888888;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
 }
